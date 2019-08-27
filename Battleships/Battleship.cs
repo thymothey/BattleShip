@@ -19,7 +19,6 @@ namespace Battleships
         public void Start()
         {
             GenerateShips();
-
         }
 
         public void Fight(string coordinates, out string result)
@@ -84,17 +83,6 @@ namespace Battleships
                 {
                     return "Hits";
                 }
-
-                //for (int i = 0; i < grid.GetLength(0); i++)
-                //{
-                //    for (int j = 0; j < grid.GetLength(1); j++)
-                //    {
-                //        if(grid[i,j] == typeOfShip)
-                //        {
-                //            grid[i, j] = 0;
-                //        }
-                //    }
-                //}
             }
             else
             {
